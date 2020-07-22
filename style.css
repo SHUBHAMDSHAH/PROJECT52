@@ -1,0 +1,48 @@
+h1{
+    color: red;
+}
+*{
+ border: solid;
+ border-color: indigo;
+ border-style: double;
+ 
+ font-weight: 300;
+
+}
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+.S{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: gold;
+}
+body{
+    background-color: #808080;
+}
+a:link{
+    color: darkgreen;
+}
+a :visited{
+    color: darkorange;
+}
+a:active{
+    color: darkseagreen;
+}
+.item p {
+position: relative;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.item{
+    position: relative;
+}
+.item:hover p{
+ opacity: 100;
+}
